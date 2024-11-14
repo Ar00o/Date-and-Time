@@ -7,15 +7,15 @@ let formatMode = ''
 
 time.onclick = function () {
     formatMode = 'time';
-    update(formatMode)
+    update()
 }
 date.onclick = function () {
     formatMode = 'date';
-    update(formatMode)
+    update()
 }
 full.onclick = function () {
     formatMode = 'full';
-    update(formatMode)
+    update()
 }
 
 update()
